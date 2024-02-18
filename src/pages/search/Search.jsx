@@ -37,7 +37,7 @@ const Search = () => {
             </div>
             <div className="lsItem">
               <label>Check-in Date</label>
-              <span onClick={() => setOpenDate(!openDate)}>
+              <span onClick={setOpenDate.bind(this, !openDate)}>
                 {/* Format and display check-in date */}
                 {`${format(date[0].startDate, "MM/dd/yyyy")} to ${format(date[0].endDate, "MM/dd/yyyy")}`}
               </span>
