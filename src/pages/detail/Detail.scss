@@ -1,0 +1,114 @@
+.detailContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.detailWrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.detailWrapper>button {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detailTitle {
+    font-size: 24px;
+}
+
+.detailAddress {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.detailDistance {
+    color: #0071c2;
+    font-weight: 500;
+}
+
+.detailPriceHightLight {
+    color: #008009;
+    font-weight: 500;
+}
+
+.detailImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.detailImgWrapper {
+    width: 33%;
+    margin-top: 5px;
+}
+
+.detailImg {
+    
+    width: 100%;
+    object-fit: cover;
+}
+
+.detailDetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.detailDetailsTexts {
+    flex: 3
+}
+
+.detailDesc {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.detailDetailsPrice {
+    flex: 1;
+    background-color: #ebf3ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detailDetailsPrice>h1 {
+    font-size: 18px;
+    color: #555;
+}
+
+.detailDetailsPrice>span {
+    font-size: 14px;
+}
+
+.detailDetailsPrice>h2 {
+    font-weight: 300;
+}
+
+.detailDetailsPrice>button {   
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
