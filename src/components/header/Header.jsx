@@ -56,8 +56,8 @@ const Header = ({ type }) => {
         <div className="header">
             <div className={type === "list" ? "headerContainer listMode" : "headerContainer"} >
                 <div className="headerList">
-                    {navBar.map(item => (
-                        <div className={`headerListItem ${item.active ? 'active'  : ''}`}>
+                    {navBar.map((item,index) => (
+                        <div className={`headerListItem ${item.active ? 'active'  : ''}`} key={index}>
                             <FontAwesomeIcon icon={renderIcon(item.icon)} />
                             <span>{item.type}</span>
                         </div>

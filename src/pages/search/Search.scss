@@ -74,7 +74,7 @@
     padding: 10px;
     background-color: #0071c2;
     color: white;
-    border:none;
+    border: none;
     width: 100%;
     font-weight: 500;
     cursor: pointer;
@@ -82,4 +82,10 @@
 
 .listResult {
     flex: 3;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

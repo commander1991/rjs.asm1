@@ -6,7 +6,8 @@ import { useState } from 'react';
 import { format } from 'date-fns';
 import { DateRange } from 'react-date-range';
 import SearchItem from '../../components/searchItem/SearchItem';
-
+import Subscribe from '../../components/subscribe/Subscribe'
+import Footer from '../../components/footer/Footer'
 
 const Search = () => {
 
@@ -83,6 +84,10 @@ const Search = () => {
             <SearchItem />
           </div>
         </div>
+      </div>
+      <div className="footer">
+        <Subscribe />
+        <Footer />
       </div>
     </div>
   );

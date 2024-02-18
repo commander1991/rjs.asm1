@@ -13,7 +13,7 @@ const SearchItem = () => {
                     />
                     <div className="siDesc">
                         <h1 className='siTitle'>{item.name}</h1>
-                        <span className="siDistance">{item.distance}</span>
+                        <span className="siDistance">{item.distance} from center</span>
                         <span className="siTaxiOp">{item.tag}</span>
                         <span className="siSubtitle">{item.description}</span>
                         <span className="siFeatures">{item.type}</span>

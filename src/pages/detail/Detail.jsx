@@ -45,7 +45,7 @@ const Detail = () => {
               </span>
               <h2>
                 <b>${data.nine_night_price}</b> (9 nights)
-              </h2>
+              </h2>              
               <button>Reserve of Book Now!</button>
             </div>
           </div>

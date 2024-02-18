@@ -7,7 +7,7 @@ const Hotels = () => {
             {data.map(hotel =>
                 <div className="hotelItem" key={hotel.id}>
                     <img src={hotel.image_url} className='hotelImg'></img>
-                    <span className="name">{hotel.name}</span>
+                    <a className="name" href='./detail'>{hotel.name}</a>
                     <span className="city">{hotel.city}</span>
                     <span className="price">Starting from ${hotel.price}</span>
                     <div className="rating">
